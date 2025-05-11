@@ -34,7 +34,7 @@ var reverse = function (x) {
         multiPlayer = multiPlayer * 10;
     }
 
-    for (let i = 0; i < sizeOfField; i++) {
+    for (var i = 0; i < sizeOfField; i++) {
         result += numbersArray[parseInt(i)] * multiPlayer;
         multiPlayer = multiPlayer / 10;
     }
